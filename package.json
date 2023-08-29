@@ -1,9 +1,9 @@
 {
-  "name": "underpants",
+  "name": "underpants-OmarBarakat10",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "description": "Functional Functions for Fun",
-  "main": "data.js",
+  "main": "underpants.js",
   "directories": {
     "test": "test"
   },
@@ -14,19 +14,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/OperationSpark/underpants.git"
+    "url": "https://github.com/OmarBarakat10/underpants.git"
   },
-  "author": "jfraboni",
+  "author": "OmarBarakat10",
   "license": "CC",
   "bugs": {
-    "url": "https://github.com/OperationSpark/underpants/issues"
+    "url": "https://github.com/OmarBarakat10/underpants/issues"
   },
-  "homepage": "https://github.com/OperationSpark/underpants",
+  "homepage": "https://github.com/OmarBarakat10/underpants",
   "devDependencies": {
     "chai": "^3.5.0",
     "istanbul": "^0.4.5",
     "lodash": "^4.17.4",
     "mocha": "^3.4.1",
     "sinon": "^2.2.0"
+  },
+  "dependencies": {
+    "private": "^0.1.8"
   }
 }
